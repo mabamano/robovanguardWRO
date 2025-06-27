@@ -1,26 +1,45 @@
-Engineering materials
-====
+# 🤖 ROBOVANGUARD – WRO Future Engineers 2025
 
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+An autonomous vehicle designed for the Future Engineers category of the WRO 2025. This robot combines vision, IMU, and ultrasonic sensing with precision steering control to complete Open and Obstacle Challenges fully autonomously.
 
-## Content
+---
 
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
-* `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
+## 📁 Repository Structure
 
-## Introduction
+t-photos/ → Team photos (official and candid)
+v-photos/ → 6 vehicle images (top, bottom, front, back, left, right)
+video/ → Driving demo videos (30s+ Open & Obstacle runs)
+schemes/ → Wiring diagrams, block diagram, and circuit schematics
+src/ → Source code for control logic and challenge routines
+models/ → 3D printable components (STL format)
+other/ → Supporting files and documentation
+README.md → This file
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+---
 
-## How to prepare the repo based on the template
+## 👥 Team Information
 
-_Remove this section before the first commit to the repository_
+| Role          | Name              | Department | Register Number     |
+|---------------|-------------------|------------|----------------------|
+| Mentor        | Mr. S. Valai Ganesh | Mech (AP SG) | —                    |
+| Team Leader   | M. Manojkumar     | CSBS       | 953623244024         |
+| Hardware Lead | V. Rakshit        | EEE        | 953623105044         |
+| Mechanical    | P. Chandru        | Mech       | 953623114009         |
 
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
+- **Team Name:** ROBOVANGUARD  
+- **Team ID:** 1129  
+
+---
+
+## 🚙 Project Overview
+
+Our robot is a self-driving car that autonomously navigates the WRO competition track using:
+- Real-time decision-making
+- Multi-sensor fusion (PixyCam, MPU6050, Ultrasonic Sensors)
+- Servo-based steering
+- PID logic for smooth path following
+
+The robot can detect walls, avoid obstacles, perform accurate 90° turns using gyro correction, and execute parallel parking maneuvers.
+
+---
+
