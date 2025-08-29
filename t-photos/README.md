@@ -1,4 +1,3 @@
-Team's photos
-====
+# Team's photos
 
-This directory must contain 2 photos of the team (an official one and one funny photo with all team members)
+This directory contains 3 photos of the team (an official one and one funny photo with all team members)

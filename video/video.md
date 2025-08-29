@@ -1,1 +1,2 @@
-https://www.youtube.com/watch?v=J5yrJuZZ5P8
+open challenge = https://youtu.be/LfqrfKVT32s
+obstacle challenge = https://youtu.be/omPhwowLji4
